@@ -50,7 +50,8 @@ body {
 
 }
 
-.formInput:focus, .formSelect:focus {
+.formInput:focus,
+.formSelect:focus {
     border: 2px solid var(--primary-color);
     outline: none;
 }
@@ -69,29 +70,8 @@ body {
     transition: width 0.25s, height 0.25s;
 }
 
-/*.formSubmit:hover {
-    text-transform: uppercase;
-    font-weight: 700;
-    display: block;
-    margin: 30px auto;
-    background: var(--primary-color);
-    width: 152px;
-    height: 52px;
-    font-size: 17px;
-    border-radius: 5px;
-    color: var(--tertiary-color);
-}*/
-
 #totalTip {
     font-size: 20px;
     margin-top: 20px;
     text-align: center;
 }
-
-
-
-
-
-
-
-
